@@ -13,7 +13,7 @@ export default defineConfig({
   }), vue(), icon({
     iconDir: 'src/icons',
     include: {
-      mdi: ['email', 'earth', 'map-marker-radius', 'github', 'linkedin', 'phone-classic']
+      mdi: ['email', 'earth', 'map-marker-radius', 'github', 'linkedin', 'phone-classic', 'link-variant']
     }
   })]
 });

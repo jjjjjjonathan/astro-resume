@@ -6,7 +6,7 @@
     "email": "jonathanmcheng@gmail.com",
     "phone": "",
     "url": "https://jcheng.ca",
-    "summary": "Dynamic developer with a keen eye for details coming from a background in social media and journalism. I want to create apps with robust back ends and accessible front-end platforms. I build with the intent to solve problems and deliver thoughtful user experiences with diverse groups of people in mind.",
+    "summary": "Dynamic developer with a keen eye for details and a background in social media and journalism. I want to create apps with robust back ends and accessible front-end platforms. I build with the intent to solve problems and deliver thoughtful user experiences with diverse groups of people in mind.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -146,7 +146,7 @@
         "tRPC",
         "Prisma"
       ],
-      "startDate": "2023-04-01",
+      "startDate": "2023-04-02",
       "endDate": "",
       "url": "https://github.com/jjjjjjonathan/mdoc-assistant",
       "roles": [],
@@ -165,7 +165,7 @@
         "Bootstrap",
         "Webpack"
       ],
-      "startDate": "2023-02-01",
+      "startDate": "2023-02-02",
       "endDate": "",
       "url": "https://quran-khane-org.onrender.com/",
       "roles": [],
@@ -177,8 +177,8 @@
       "description": "Resume builder using Nuxt 3 to deploy to a static site with a CircleCI-generated PDF.",
       "highlights": [],
       "keywords": ["TypeScript", "Vue", "TailwindCSS", "Vitest", "CircleCI"],
-      "startDate": "2022-11-01",
-      "endDate": "2022-11-01",
+      "startDate": "2022-11-02",
+      "endDate": "2022-11-02",
       "url": "https://github.com/jjjjjjonathan/resume-nuxt",
       "roles": [],
       "entity": "Entity",

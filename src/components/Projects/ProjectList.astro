@@ -1,0 +1,11 @@
+---
+import { getProjects } from '../../utils/projects'
+import ProjectItem from './ProjectItem.astro';
+const projects = getProjects();
+---
+
+<div class="px-2 py-1">
+  {projects.map((project) => (
+    <ProjectItem name={project.name} url={project.url} date={project.date} description={project.description} tags={project.keywords} />
+  ))}
+</div>

@@ -20,6 +20,9 @@ dependencies:
   astro-icon:
     specifier: https://gitpkg.now.sh/natemoo-re/astro-icon/packages/core?ms/v1
     version: '@gitpkg.now.sh/natemoo-re/astro-icon/packages/core?ms/v1'
+  date-fns:
+    specifier: ^2.30.0
+    version: 2.30.0
   tailwindcss:
     specifier: ^3.0.24
     version: 3.3.1(postcss@8.4.23)
@@ -451,6 +454,13 @@ packages:
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.21.4)
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@babel/runtime@7.22.5:
+    resolution: {integrity: sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.13.11
     dev: false
 
   /@babel/template@7.20.7:
@@ -1552,6 +1562,13 @@ packages:
 
   /csstype@2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
+    dev: false
+
+  /date-fns@2.30.0:
+    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
+    engines: {node: '>=0.11'}
+    dependencies:
+      '@babel/runtime': 7.22.5
     dev: false
 
   /debug@4.3.4:
@@ -3277,6 +3294,10 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: 2.3.1
+    dev: false
+
+  /regenerator-runtime@0.13.11:
+    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
     dev: false
 
   /rehype-parse@8.0.4:
