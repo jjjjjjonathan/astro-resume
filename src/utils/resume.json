@@ -96,18 +96,17 @@
       "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "JavaScript",
         "TypeScript",
+        "JavaScript",
         "Python",
         "SQL",
-        "HTML/CSS",
         "Ruby"
       ]
     },
     {
       "name": "Frameworks/Libraries",
       "level": "",
-      "keywords": ["React", "Vue", "Node.js", "Express", "TailwindCSS", "Rails"]
+      "keywords": ["React", "Next.js", "Node.js", "Express", "TailwindCSS", "Rails", "Django", "Astro"]
     },
     {
       "name": "Databases",
