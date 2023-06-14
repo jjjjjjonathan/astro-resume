@@ -106,7 +106,7 @@
     {
       "name": "Frameworks/Libraries",
       "level": "",
-      "keywords": ["React", "Next.js", "Node.js", "Express", "TailwindCSS", "Rails", "Django", "Astro"]
+      "keywords": ["React", "Next.js", "Vue", "Node.js", "Express", "TailwindCSS", "Rails", "Django", "Astro"]
     },
     {
       "name": "Databases",
@@ -162,7 +162,8 @@
         "Node.js",
         "PostgreSQL",
         "Bootstrap",
-        "Webpack"
+        "Webpack",
+        "Figma"
       ],
       "startDate": "2023-02-02",
       "endDate": "",
