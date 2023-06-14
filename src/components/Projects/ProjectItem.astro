@@ -10,17 +10,18 @@ export interface Props {
 }
 const { name, url, date, description, tags } = Astro.props
 ---
-
-<div class="flex flex-row justify-between items-center">
-  <h4 class="text-md font-semibold text-left inline">
-    {url
-      ? <a href={url} rel="noopener noreferrer" target="_blank" class="hover:underline">{name}</a>
-      : {name}
-    }
-  </h4>
-  <span class="font-medium text-sm text-right">{date}</span>
-</div>
-<p class="text-sm px-1 pb-0 5">{description}</p>
-<div class="flex flex-row flex-wrap justify-start items-center gap-1">
-  {tags.map((tag) => <Tag tagPhrase={tag} />)}
+<div class="flex flex-col gap-y-1 pt-1">
+  <div class="flex flex-row justify-between items-center">
+    <h4 class="text-md font-semibold text-left inline">
+      {url
+        ? <a href={url} rel="noopener noreferrer" target="_blank" class="hover:underline">{name}</a>
+        : {name}
+      }
+    </h4>
+    <span class="font-medium text-sm text-right">{date}</span>
+  </div>
+  <p class="text-sm px-1 pb-0 5">{description}</p>
+  <div class="flex flex-row flex-wrap justify-start items-center gap-1">
+    {tags.map((tag) => <Tag tagPhrase={tag} />)}
+  </div>
 </div>

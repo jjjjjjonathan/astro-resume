@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Section from '../components/Section.astro';
 import Summary from '../components/Summary.astro';
 import ProjectList from '../components/Projects/ProjectList.astro'
+import SkillList from '../components/Skills/SkillList.astro'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -18,7 +19,9 @@ import ProjectList from '../components/Projects/ProjectList.astro'
 			</Section>
 		</div>
 		<div class="col-span-11 medium:col-span-5 order-1 medium:order-2 h-full print:col-span-5 print:order-2">
-			<Section title="Skills" />
+			<Section title="Skills">
+				<SkillList />
+			</Section>
 		</div>
 		<div class="col-span-11 medium:col-span-6 order-3 h-full print:col-span-6">
 			<Section title="Work Experience" />

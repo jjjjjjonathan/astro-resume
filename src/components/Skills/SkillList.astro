@@ -1,0 +1,21 @@
+---
+import { getSkills } from '../../utils/skills'
+import Tag from '../ui/Tag.astro'
+
+const skills = getSkills();
+---
+
+<div>
+  {skills.map((skill) => (
+    <div class="px-2 py-1">
+      <h4 class="text-md font-semibold">
+        {skill.name}
+      </h4>
+      <div class="flex flex-row flex-wrap justify-start items-center">
+        {skill.tags.map((tag) => (
+        <Tag tagPhrase={tag} />
+        ))}
+      </div>
+    </div>
+  ))}
+</div>
