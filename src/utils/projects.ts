@@ -1,17 +1,21 @@
 import { projects } from './resume.json'
 import { format } from 'date-fns'
 
-// dates in resume.json are in 'YYYY-MM-DD' format
-export const formatDate = (startDate: string, endDate: string) => {
-  const formattedStartDate = format(new Date(startDate), 'MMM y');
+// startDate and endDate from resume.json are in 'YYYY-MM-DD' format.
+export const DEFAULT_DATE_FORMAT = 'MMM y'
+export const formatDate = (startDate: string, endDate: string, outputFormat: string) => {
+  const formattedStartDate = format(new Date(startDate), outputFormat);
   
-  if (startDate === endDate) {
-    return formattedStartDate;
-  } else if (!endDate) {
+  if (!endDate) {
     return `${formattedStartDate}–Present`;
   } else {
-    const formattedEndDate = format(new Date(endDate), 'MMM y');
-    return `${formattedStartDate}–${formattedEndDate}`;
+    const formattedEndDate = format(new Date(endDate), outputFormat);
+
+    if (formattedStartDate === formattedEndDate) {
+      return formattedStartDate
+    } else {
+      return `${formattedStartDate}–${formattedEndDate}`;
+    }
   }
 }
 
@@ -21,6 +25,6 @@ export const getProjects = () => {
     description: project.description,
     url: project.url,
     keywords: project.keywords,
-    date: formatDate(project.startDate, project.endDate)
+    date: formatDate(project.startDate, project.endDate, DEFAULT_DATE_FORMAT)
   }))
 }

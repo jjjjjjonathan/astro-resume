@@ -1,0 +1,23 @@
+---
+import { getEducation } from '../../utils/education';
+
+const education = getEducation();
+---
+
+{education.map((school) => (
+  <div class="px-2 py-1">
+    <div class="flex flex-row justify-between items-center">
+      <h4 class="text-md font-semibold text-left">
+        {school.institution}  
+      </h4>
+      <span class="font-medium text-sm text-right">
+        {school.date}  
+      </span>
+    </div>
+    <div class="px-1">
+      <p class="text-sm italic">{school.studyType}</p>
+      <p class="text-sm">{school.area}</p>
+      {school.note ? <p class="text-xs font-light">{school.note}</p> : null}  
+    </div> 
+  </div>
+))}

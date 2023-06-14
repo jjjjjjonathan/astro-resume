@@ -32,7 +32,7 @@
       "name": "Independent Freelancer",
       "position": "Full-Stack Developer",
       "url": "",
-      "startDate": "2022-04-01",
+      "startDate": "2022-04-02",
       "endDate": "",
       "summary": "Partner with clients to bring project ideas into production with tech such as TypeScript, React, Rails.",
       "highlights": [
@@ -44,7 +44,7 @@
       "name": "League1 Ontario",
       "position": "Match-Day Coordinator",
       "url": "",
-      "startDate": "2018-04-01",
+      "startDate": "2018-04-02",
       "endDate": "",
       "summary": "Coordinate setup of operations at soccer matches with teams and officials to follow league rules and facilitate a smooth match-day experience.",
       "highlights": [
@@ -59,8 +59,8 @@
       "url": "",
       "area": "Full-Stack Web Development",
       "studyType": "Diploma",
-      "startDate": "2022-01-01",
-      "endDate": "2022-04-01",
+      "startDate": "2022-01-02",
+      "endDate": "2022-04-02",
       "note": ""
     },
     {
@@ -68,8 +68,8 @@
       "url": "",
       "area": "Sports Journalism",
       "studyType": "Post Graduate Certificate",
-      "startDate": "2017-01-01",
-      "endDate": "2017-07-01",
+      "startDate": "2017-01-02",
+      "endDate": "2017-07-02",
       "note": "Completed 2/3 semesters"
     },
     {
@@ -77,8 +77,8 @@
       "url": "",
       "area": "Double Major in Criminology and Sociology\nCertificate in Writing",
       "studyType": "Bachelor of Arts",
-      "startDate": "2009-01-01",
-      "endDate": "2015-01-01",
+      "startDate": "2009-01-02",
+      "endDate": "2015-01-02",
       "note": ""
     },
     {
@@ -86,8 +86,8 @@
       "url": "",
       "area": "Emergency Telecommunications",
       "studyType": "Ontario College Certificate",
-      "startDate": "2014-09-01",
-      "endDate": "2014-12-01",
+      "startDate": "2014-09-02",
+      "endDate": "2014-12-02",
       "note": ""
     }
   ],

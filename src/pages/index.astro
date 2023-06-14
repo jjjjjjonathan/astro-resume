@@ -5,6 +5,7 @@ import Summary from '../components/Summary.astro';
 import ProjectList from '../components/Projects/ProjectList.astro'
 import SkillList from '../components/Skills/SkillList.astro'
 import WorkList from '../components/Work/WorkList.astro'
+import EducationList from '../components/Education/EducationList.astro'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -30,7 +31,9 @@ import WorkList from '../components/Work/WorkList.astro'
 			</Section>
 		</div>
 		<div class="col-span-11 medium:col-span-5 order-4 h-full print:col-span-5">
-			<Section title="Education" />
+			<Section title="Education">
+				<EducationList />
+			</Section>
 		</div>
 	</div>
 </Layout>
