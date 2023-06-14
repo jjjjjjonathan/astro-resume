@@ -1,0 +1,16 @@
+---
+import Link from "./Link.astro";
+import { getEmail, getPhone, getLocation, getProfiles, getUrl } from '../../utils/basics'
+const { emailDisplay, emailUrl, emailIcon } = getEmail()
+const { phoneDisplay, phoneIcon } = getPhone()
+const { locationDisplay, locationIcon } = getLocation()
+const profiles = getProfiles()
+const { urlDisplay, urlUrl, urlIcon } = getUrl()
+---
+<div class="flex flex-wrap flex-row small:flex-col medium:flex-row print:small:flex-row justify-center small:justify-between print:justify-between medium:justify-around gap-x-4 small:gap-0 text-sm items-end medium:items-center print:items-center px-2">
+  <Link display={emailDisplay} url={emailUrl} icon={emailIcon} />
+  {phoneDisplay ? <Link display={phoneDisplay} icon={phoneIcon} /> : null}
+  <Link display={urlDisplay} url={urlUrl} icon={urlIcon} />
+  <Link display={locationDisplay} icon={locationIcon} />
+  {profiles.map((profile) => <Link display={profile.profileDisplay} url={profile.profileUrl} icon={profile.profileIcon} />)}
+</div>

@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply font-rubik print:font-sans;
+}
+body {
+  @apply box-border antialiased
+          bg-transparent letter:bg-slate-300 print:bg-transparent
+          py-0 letter:py-10 print:py-0;
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+header {
+  @apply bg-emerald-400
+          w-full
+          flex flex-col small:flex-row medium:flex-col print:small:flex-col
+          justify-between
+          p-4;
+}
+
+h1 {
+  @apply text-3xl xs:text-4xl
+          font-semibold
+          text-center xs:text-right;
+}
+
+h2 {
+  @apply text-xl xs:text-2xl
+          font-semibold
+          text-center xs:text-right;
+}
+
+.link {
+  @apply flex flex-row small:flex-row-reverse medium:flex-row print:small:flex-row
+          items-center
+          gap-0.5;
+}
+
+.link a {
+  @apply hover:underline;
+}
+
+div#resume {
+  @apply w-full letter:w-[816px] print:w-[816px]
+          h-full letter:h-[1054px] print:h-[1054px]
+        bg-white
+          flex flex-col
+          justify-start
+          items-center
+          mx-auto
+          shadow-none letter:shadow-2xl print:shadow-none;
+}
+
+@page {
+  size: letter portrait;
+  margin: 0;
+}

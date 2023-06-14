@@ -1,0 +1,188 @@
+{
+  "basics": {
+    "name": "Jonathan Cheng",
+    "label": "Full-Stack Developer",
+    "image": "",
+    "email": "jonathanmcheng@gmail.com",
+    "phone": "",
+    "url": "https://jcheng.ca",
+    "summary": "Dynamic developer with a keen eye for details coming from a background in social media and journalism. I want to create apps with robust back ends and accessible front-end platforms. I build with the intent to solve problems and deliver thoughtful user experiences with diverse groups of people in mind.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "ON"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jjjjjjonathan",
+        "url": "https://www.github.com/jjjjjjonathan"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jonathanmcheng",
+        "url": "https://www.linkedin.com/in/jonathanmcheng/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Independent Freelancer",
+      "position": "Full-Stack Developer",
+      "url": "",
+      "startDate": "2022-04-01",
+      "endDate": "",
+      "summary": "Partner with clients to bring project ideas into production with tech such as TypeScript, React, Rails.",
+      "highlights": [
+        "Built apps to simplify tasks at League1 Ontario",
+        "Worked with other developers using agile methods"
+      ]
+    },
+    {
+      "name": "League1 Ontario",
+      "position": "Match-Day Coordinator",
+      "url": "",
+      "startDate": "2018-04-01",
+      "endDate": "",
+      "summary": "Coordinate setup of operations at soccer matches with teams and officials to follow league rules and facilitate a smooth match-day experience.",
+      "highlights": [
+        "Directed communications team in major events",
+        "Oversaw operations of 90+ matches in three seasons"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lighthouse Labs",
+      "url": "",
+      "area": "Full-Stack Web Development",
+      "studyType": "Diploma",
+      "startDate": "2022-01-01",
+      "endDate": "2022-04-01",
+      "note": ""
+    },
+    {
+      "institution": "Centennial College",
+      "url": "",
+      "area": "Sports Journalism",
+      "studyType": "Post Graduate Certificate",
+      "startDate": "2017-01-01",
+      "endDate": "2017-07-01",
+      "note": "Completed 2/3 semesters"
+    },
+    {
+      "institution": "Western University",
+      "url": "",
+      "area": "Double Major in Criminology and Sociology\nCertificate in Writing",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2009-01-01",
+      "endDate": "2015-01-01",
+      "note": ""
+    },
+    {
+      "institution": "Fanshawe College",
+      "url": "",
+      "area": "Emergency Telecommunications",
+      "studyType": "Ontario College Certificate",
+      "startDate": "2014-09-01",
+      "endDate": "2014-12-01",
+      "note": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "HTML/CSS",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "level": "",
+      "keywords": ["React", "Vue", "Node.js", "Express", "TailwindCSS", "Rails"]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": ["PostgreSQL", "MySQL"]
+    },
+    {
+      "name": "Testing",
+      "level": "",
+      "keywords": ["Jest", "Testing Library", "Vitest", "Storybook", "Cypress"]
+    },
+    {
+      "name": "Concepts",
+      "level": "",
+      "keywords": [
+        "Test-driven Development",
+        "Relational Database Design",
+        "REST APIs",
+        "WebSockets",
+        "Source Control (Git/GitHub)",
+        "Continuous Integration/Deployment (CI/CD)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MDOC Assistant",
+      "description": "Game tracker for League1 Ontario match-day operations coordinators with automatic tweet templates and image generation for WCAG accessible social-media graphics.",
+      "highlights": [],
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS",
+        "tRPC",
+        "Prisma"
+      ],
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "url": "https://github.com/jjjjjjonathan/mdoc-assistant",
+      "roles": [],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "Quran Khane Org",
+      "description": "Rails application to organize Quran reading groups with chapter assignments for participants.",
+      "highlights": [],
+      "keywords": [
+        "Ruby",
+        "Rails",
+        "Node.js",
+        "PostgreSQL",
+        "Bootstrap",
+        "Webpack"
+      ],
+      "startDate": "2023-02-01",
+      "endDate": "",
+      "url": "https://quran-khane-org.onrender.com/",
+      "roles": [],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "resume-nuxt",
+      "description": "Resume builder using Nuxt 3 to deploy to a static site with a CircleCI-generated PDF.",
+      "highlights": [],
+      "keywords": ["TypeScript", "Vue", "TailwindCSS", "Vitest", "CircleCI"],
+      "startDate": "2022-11-01",
+      "endDate": "2022-11-01",
+      "url": "https://github.com/jjjjjjonathan/resume-nuxt",
+      "roles": [],
+      "entity": "Entity",
+      "type": "application"
+    }
+  ]
+}

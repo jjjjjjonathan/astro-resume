@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
+import icon from 'astro-icon';
 
 import vue from "@astrojs/vue";
 
@@ -9,5 +10,10 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), vue()]
+  }), vue(), icon({
+    iconDir: 'src/icons',
+    include: {
+      mdi: ['email', 'earth', 'map-marker-radius', 'github', 'linkedin', 'phone-classic']
+    }
+  })]
 });
