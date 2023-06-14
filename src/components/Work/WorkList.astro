@@ -1,0 +1,28 @@
+---
+import { getWork } from '../../utils/work'
+const jobs = getWork()
+---
+
+{jobs.map((job) => (
+  <div class="px-2 py-1">
+    <div class="flex flex-row justify-between items-">
+      <h4 class="text-md font-semibold text-left">
+        {job.position}  
+      </h4>
+      <span class="font-medium text-sm text-right">
+        {job.date}  
+      </span>
+    </div>
+    <p class="text-sm italic">{job.name}</p>
+    <p class="text-sm px-1 pt-1 pb-2">{job.summary}</p>
+    <ul>
+      {job.highlights.map((highlight) => (
+        <li class="flex ml-2 mb-1 flex-row justify-start items-center">
+          <p>*</p>
+          <p class="text-sm font-medium my-auto">{highlight}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+))}
+

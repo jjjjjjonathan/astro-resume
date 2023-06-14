@@ -2,7 +2,7 @@ import { projects } from './resume.json'
 import { format } from 'date-fns'
 
 // dates in resume.json are in 'YYYY-MM-DD' format
-const formatDate = (startDate: string, endDate: string) => {
+export const formatDate = (startDate: string, endDate: string) => {
   const formattedStartDate = format(new Date(startDate), 'MMM y');
   
   if (startDate === endDate) {
