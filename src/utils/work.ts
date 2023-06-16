@@ -8,5 +8,6 @@ export const getWork = () => {
     date: formatDate(job.startDate, job.endDate, DEFAULT_DATE_FORMAT),
     summary: job.summary,
     highlights: job.highlights,
+    tags: job.keywords,
   }));
 };

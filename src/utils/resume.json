@@ -34,10 +34,8 @@
       "url": "",
       "startDate": "2023-02-02",
       "endDate": "",
-      "summary": "Partner with clients to bring project ideas into production with tech such as TypeScript, React, Rails.",
-      "highlights": [
-        "Lead migration from Bootstrap to TailwindCSS"
-      ],
+      "summary": "Build a Rails application to organize Quran reading groups while working with team members using agile methodology.",
+      "highlights": ["Lead migration from Bootstrap to TailwindCSS"],
       "keywords": [
         "Ruby",
         "Rails",
@@ -54,10 +52,8 @@
       "url": "",
       "startDate": "2018-04-02",
       "endDate": "",
-      "summary": "Coordinate setup of operations at soccer matches with teams and officials to follow league rules and facilitate a smooth match-day experience.",
-      "highlights": [
-        "Directed communications team in major events"
-      ]
+      "summary": "Coordinate operations at soccer matches with teams and officials to facilitate a smooth match-day experience.",
+      "highlights": ["Directed communications team in major events"]
     },
     {
       "name": "Independent Freelancer",
@@ -65,10 +61,8 @@
       "url": "",
       "startDate": "2017-09-02",
       "endDate": "2022-01-02",
-      "summary": "Coordinate setup of operations at soccer matches with teams and officials to follow league rules and facilitate a smooth match-day experience.",
-      "highlights": [
-        "Directed communications team in major events"
-      ]
+      "summary": "Captured compelling storylines into print and digital while managing multiple projects to meet deadlines in high-pressure environments.",
+      "highlights": ["Centennial's 2017 CLIX photo competition winner"]
     }
   ],
   "education": [
@@ -113,18 +107,22 @@
     {
       "name": "Programming Languages",
       "level": "",
-      "keywords": [
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "SQL",
-        "Ruby"
-      ]
+      "keywords": ["TypeScript", "JavaScript", "Python", "SQL", "Ruby"]
     },
     {
       "name": "Frameworks/Libraries",
       "level": "",
-      "keywords": ["React", "Next.js", "Vue", "Node.js", "Express", "TailwindCSS", "Rails", "Django", "Astro"]
+      "keywords": [
+        "React",
+        "Next.js",
+        "Vue",
+        "Node.js",
+        "Express",
+        "TailwindCSS",
+        "Rails",
+        "Django",
+        "Astro"
+      ]
     },
     {
       "name": "Databases",
@@ -152,7 +150,7 @@
   "projects": [
     {
       "name": "MDOC Assistant",
-      "description": "Game tracker for League1 Ontario match-day operations coordinators with automatic tweet templates and image generation for WCAG accessible social-media graphics.",
+      "description": "Automatic tweet templates and image generator with alt-text for WCAG accessible social-media graphics for League1 Ontario match-day operations coordinators.",
       "highlights": [],
       "keywords": [
         "TypeScript",
@@ -171,21 +169,13 @@
       "type": "application"
     },
     {
-      "name": "Quran Khane Org",
-      "description": "Rails application to organize Quran reading groups with chapter assignments for participants.",
+      "name": "Django League1 Ontario",
+      "description": "Predictor of promoted/relegated teams for League1 Ontario while learning the Django framework.",
       "highlights": [],
-      "keywords": [
-        "Ruby",
-        "Rails",
-        "Node.js",
-        "PostgreSQL",
-        "Bootstrap",
-        "Webpack",
-        "Figma"
-      ],
-      "startDate": "2023-02-02",
+      "keywords": ["Python", "Django", "PostgreSQL"],
+      "startDate": "2023-05-02",
       "endDate": "",
-      "url": "https://quran-khane-org.onrender.com/",
+      "url": "",
       "roles": [],
       "entity": "Entity",
       "type": "application"
