@@ -1,0 +1,35 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import format from "date-fns/format";
+
+export async function getStaticPaths() {
+  const coverLetters = await getCollection("coverletters");
+  return coverLetters.map((coverLetter) => ({
+    params: { slug: coverLetter.slug },
+    props: { coverLetter },
+  }));
+}
+
+const { coverLetter } = Astro.props;
+const { Content } = await coverLetter.render();
+const { date, company, address, city, province, postalCode, position } =
+  coverLetter.data;
+
+const formattedDate = format(new Date(date), "MMMM d, Y");
+---
+
+<Layout title="test cover letter">
+  <main class="flex w-full flex-col items-start gap-y-6 p-6">
+    <div id="date">{formattedDate}</div>
+    <div id="address">
+      <p>{company}</p>
+      <p>{address}</p>
+      <p>{city}, {province} {postalCode}</p>
+    </div>
+    <div class="my-auto w-full">
+      <p class="text-center font-semibold">Re: Application for {position}</p>
+    </div>
+    <Content />
+  </main>
+</Layout>

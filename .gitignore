@@ -25,3 +25,5 @@ pnpm-debug.log*
 **/*/resume.oldpublic.json
 
 .vscode
+
+src/content
