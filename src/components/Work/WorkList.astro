@@ -1,29 +1,26 @@
 ---
-import { getWork } from '../../utils/work'
-import { Icon } from 'astro-icon/components'
-const jobs = getWork()
+import { getWork } from "../../utils/work";
+import { Icon } from "astro-icon/components";
+const jobs = getWork();
 ---
 
-{jobs.map((job) => (
-  <div class="px-2 py-1">
-    <div class="flex flex-row justify-between items-">
-      <h4 class="text-md font-semibold text-left">
-        {job.position}  
-      </h4>
-      <span class="font-medium text-sm text-right">
-        {job.date}  
-      </span>
+{
+  jobs.map((job) => (
+    <div class="px-2 py-1">
+      <div class="flex flex-row items-center justify-between">
+        <h4 class="text-md text-left font-semibold">{job.position}</h4>
+        <span class="text-right text-sm font-medium">{job.date}</span>
+      </div>
+      <p class="text-sm italic">{job.name}</p>
+      <p class="px-1 pb-2 pt-1 text-sm">{job.summary}</p>
+      <ul>
+        {job.highlights.map((highlight) => (
+          <li class="mb-1 ml-2 flex flex-row items-center justify-start">
+            <Icon name="mdi:star-check" class="mr-2 text-emerald-600" />
+            <p class="my-auto text-sm font-medium">{highlight}</p>
+          </li>
+        ))}
+      </ul>
     </div>
-    <p class="text-sm italic">{job.name}</p>
-    <p class="text-sm px-1 pt-1 pb-2">{job.summary}</p>
-    <ul>
-      {job.highlights.map((highlight) => (
-        <li class="flex ml-2 mb-1 flex-row justify-start items-center">
-          <Icon name="mdi:star-check" class="text-emerald-600 mr-2" />
-          <p class="text-sm font-medium my-auto">{highlight}</p>
-        </li>
-      ))}
-    </ul>
-  </div>
-))}
-
+  ))
+}

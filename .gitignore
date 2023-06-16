@@ -21,5 +21,7 @@ pnpm-debug.log*
 .DS_Store
 
 **/*/resume.private.json
-**/*/resume.old.json
+**/*/resume.OLD.json
 **/*/resume.oldpublic.json
+
+.vscode

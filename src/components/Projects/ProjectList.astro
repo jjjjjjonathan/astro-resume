@@ -1,12 +1,19 @@
 ---
-import { getProjects } from '../../utils/projects'
-import ProjectItem from './ProjectItem.astro';
+import { getProjects } from "../../utils/projects";
+import ProjectItem from "./ProjectItem.astro";
 const projects = getProjects();
 ---
 
-{projects.map((project) => (
-  <div class="px-2 py-1">
-    <ProjectItem name={project.name} url={project.url} date={project.date} description={project.description} tags={project.keywords} />
-  </div>   
-))}
-
+{
+  projects.map((project) => (
+    <div class="px-2 py-1">
+      <ProjectItem
+        name={project.name}
+        url={project.url}
+        date={project.date}
+        description={project.description}
+        tags={project.keywords}
+      />
+    </div>
+  ))
+}

@@ -1,12 +1,12 @@
 ---
 export interface Props {
-  title: string
+  title: string;
 }
-const { title } = Astro.props
+const { title } = Astro.props;
 ---
 
-<div class="bg-emerald-100 mt-4 w-full">
-  <h3 class="text-lg font-semibold px-2 flex items-center text-gray-900">
-    { title.toUpperCase() }
+<div class="mt-4 w-full bg-emerald-100">
+  <h3 class="flex items-center px-2 text-lg font-semibold text-gray-900">
+    {title.toUpperCase()}
   </h3>
 </div>

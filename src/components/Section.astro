@@ -1,12 +1,12 @@
 ---
-import SectionHeading from './ui/SectionHeading.astro'
+import SectionHeading from "./ui/SectionHeading.astro";
 export interface Props {
-  title: string
+  title: string;
 }
-const { title } = Astro.props
+const { title } = Astro.props;
 ---
 
-<section class="flex flex-col justify-start px-4 h-full">
+<section class="flex h-full flex-col justify-start px-4">
   <SectionHeading title={title} />
   <slot />
 </section>

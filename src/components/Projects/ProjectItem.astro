@@ -1,31 +1,40 @@
 ---
-import Tag from '../ui/Tag.astro';
-import { Icon } from 'astro-icon/components';
+import Tag from "../ui/Tag.astro";
+import { Icon } from "astro-icon/components";
 export interface Props {
-  name: string
-  url: string
-  date: string
-  description: string
-  tags: string[]
+  name: string;
+  url: string;
+  date: string;
+  description: string;
+  tags: string[];
 }
-const { name, url, date, description, tags } = Astro.props
+const { name, url, date, description, tags } = Astro.props;
 ---
 
-  <div class="flex flex-row justify-between items-center">
-    <div class="flex flex-row gap-x-1 items-center">
-      <h4 class="text-md font-semibold text-left">
-        {url
-          ? <a href={url} rel="noopener noreferrer" target="_blank" class="hover:underline">{name}</a>
-          : {name}
-        }
-      </h4>
-      {url ? <Icon name="mdi:link-variant" /> : null}
-    </div>
-    
-    <span class="font-medium text-sm text-right">{date}</span>
-  </div>
-  <p class="text-sm px-1 pb-0.5">{description}</p>
-  <div class="flex flex-row flex-wrap justify-start items-center">
-    {tags.map((tag) => <Tag tagPhrase={tag} />)}
+<div class="flex flex-row items-center justify-between">
+  <div class="flex flex-row items-center gap-x-1">
+    <h4 class="text-md text-left font-semibold">
+      {
+        url ? (
+          <a
+            href={url}
+            rel="noopener noreferrer"
+            target="_blank"
+            class="hover:underline"
+          >
+            {name}
+          </a>
+        ) : (
+          { name }
+        )
+      }
+    </h4>
+    {url ? <Icon name="mdi:link-variant" /> : null}
   </div>
 
+  <span class="text-right text-sm font-medium">{date}</span>
+</div>
+<p class="px-1 pb-0.5 text-sm">{description}</p>
+<div class="flex flex-row flex-wrap items-center justify-start">
+  {tags.map((tag) => <Tag tagPhrase={tag} />)}
+</div>

@@ -1,7 +1,7 @@
 import { formatDate } from "./projects";
-import { education } from './resume.json'
+import { education } from "./resume.json";
 
-const EDUCATION_DATE_FORMAT = "y"
+const EDUCATION_DATE_FORMAT = "y";
 
 export const getEducation = () => {
   return education.map((school) => ({
@@ -9,6 +9,6 @@ export const getEducation = () => {
     area: school.area,
     studyType: school.studyType,
     date: formatDate(school.startDate, school.endDate, EDUCATION_DATE_FORMAT),
-    note: school.note
-  }))
-}
+    note: school.note,
+  }));
+};

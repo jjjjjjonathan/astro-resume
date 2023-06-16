@@ -6,7 +6,7 @@
     "email": "jonathanmcheng@gmail.com",
     "phone": "",
     "url": "https://jcheng.ca",
-    "summary": "Dynamic developer with a keen eye for details and a background in social media and journalism. I want to create apps with robust back ends and accessible front-end platforms. I build with the intent to solve problems and deliver thoughtful user experiences with diverse groups of people in mind.",
+    "summary": "Dynamic developer with a keen eye for details and a background in social media and journalism. I build to solve problems and deliver thoughtful user experiences with diverse groups of people in mind using robust technology.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,15 +29,23 @@
   },
   "work": [
     {
-      "name": "Independent Freelancer",
-      "position": "Full-Stack Developer",
+      "name": "Quran Khane Org",
+      "position": "Full-Stack Developer (freelance)",
       "url": "",
-      "startDate": "2022-04-02",
+      "startDate": "2023-02-02",
       "endDate": "",
       "summary": "Partner with clients to bring project ideas into production with tech such as TypeScript, React, Rails.",
       "highlights": [
-        "Built apps to simplify tasks at League1 Ontario",
-        "Worked with other developers using agile methods"
+        "Lead migration from Bootstrap to TailwindCSS"
+      ],
+      "keywords": [
+        "Ruby",
+        "Rails",
+        "Node.js",
+        "PostgreSQL",
+        "Bootstrap",
+        "Webpack",
+        "Figma"
       ]
     },
     {
@@ -48,8 +56,18 @@
       "endDate": "",
       "summary": "Coordinate setup of operations at soccer matches with teams and officials to follow league rules and facilitate a smooth match-day experience.",
       "highlights": [
-        "Directed communications team in major events",
-        "Oversaw operations of 90+ matches in three seasons"
+        "Directed communications team in major events"
+      ]
+    },
+    {
+      "name": "Independent Freelancer",
+      "position": "Writer & Photographer",
+      "url": "",
+      "startDate": "2017-09-02",
+      "endDate": "2022-01-02",
+      "summary": "Coordinate setup of operations at soccer matches with teams and officials to follow league rules and facilitate a smooth match-day experience.",
+      "highlights": [
+        "Directed communications team in major events"
       ]
     }
   ],
@@ -168,18 +186,6 @@
       "startDate": "2023-02-02",
       "endDate": "",
       "url": "https://quran-khane-org.onrender.com/",
-      "roles": [],
-      "entity": "Entity",
-      "type": "application"
-    },
-    {
-      "name": "resume-nuxt",
-      "description": "Resume builder using Nuxt 3 to deploy to a static site with a CircleCI-generated PDF.",
-      "highlights": [],
-      "keywords": ["TypeScript", "Vue", "TailwindCSS", "Vitest", "CircleCI"],
-      "startDate": "2022-11-02",
-      "endDate": "2022-11-02",
-      "url": "https://github.com/jjjjjjonathan/resume-nuxt",
       "roles": [],
       "entity": "Entity",
       "type": "application"

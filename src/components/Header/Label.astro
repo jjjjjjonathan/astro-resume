@@ -3,7 +3,10 @@ import { getName, getLabel } from "../../utils/basics";
 const name = getName();
 const label = getLabel();
 ---
-<div class="w-full flex flex-col medium:flex-row print:flex-row justify-between small:justify-around medium:justify-between print:justify-between print:small:justify-between items-center small:items-start medium:items-end print:items-end print:small:items-end">
+
+<div
+  class="flex w-full flex-col items-center justify-between print:flex-row print:items-end print:justify-between small:items-start small:justify-around print:small:items-end print:small:justify-between medium:flex-row medium:items-end medium:justify-between"
+>
   <h1 class="order-first">
     {name.toUpperCase()}
   </h1>
