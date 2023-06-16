@@ -15,5 +15,7 @@ export default defineConfig({
     include: {
       mdi: ['email', 'earth', 'map-marker-radius', 'github', 'linkedin', 'phone-classic', 'link-variant', 'star-check']
     }
-  }), mdx()]
+  }), mdx()],
+  site: "https://jjjjjjonathan.github.io",
+  base: "/astro-resume"
 });
