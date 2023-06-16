@@ -26,4 +26,5 @@ pnpm-debug.log*
 
 .vscode
 
-src/content
+src/content/coverletters/*.mdx
+!/src/content/coverletters/example.mdx

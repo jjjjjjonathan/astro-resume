@@ -16,7 +16,7 @@ const { Content } = await coverLetter.render();
 const { date, company, address, city, province, postalCode, position } =
   coverLetter.data;
 
-const formattedDate = format(new Date(date), "MMMM d, Y");
+const formattedDate = format(date ? new Date(date) : Date.now(), "MMMM d, Y");
 ---
 
 <Layout title="test cover letter">
