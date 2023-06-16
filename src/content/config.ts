@@ -1,6 +1,7 @@
 import { z, defineCollection } from "astro:content";
 
 const coverLetterCollection = defineCollection({
+  type: "content",
   schema: z.object({
     date: z.date().optional(),
     company: z.string(),

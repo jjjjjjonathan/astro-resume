@@ -17,5 +17,5 @@ export default defineConfig({
     }
   }), mdx()],
   site: "https://jjjjjjonathan.github.io",
-  base: "/astro-resume"
+  base: "/"
 });
