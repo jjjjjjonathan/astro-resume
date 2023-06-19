@@ -172,7 +172,7 @@
       "name": "Django League1 Ontario",
       "description": "Predictor of promoted/relegated teams for League1 Ontario while learning the Django framework.",
       "highlights": [],
-      "keywords": ["Python", "Django", "PostgreSQL"],
+      "keywords": ["Python", "Django", "PostgreSQL", "TailwindCSS"],
       "startDate": "2023-05-02",
       "endDate": "",
       "url": "",

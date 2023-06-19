@@ -24,7 +24,19 @@ export const formatDate = (
 };
 
 export const getProjects = () => {
-  return projects.map((project) => ({
+  const sortedProjects = projects.sort((prev, current) => {
+    if (!prev.endDate && !current.endDate) {
+      return Date.parse(current.startDate) - Date.parse(prev.startDate);
+    } else if (!prev.endDate && current.endDate) {
+      return -1;
+    } else if (prev.endDate && !current.endDate) {
+      return 1;
+    } else {
+      return Date.parse(current.startDate) - Date.parse(prev.startDate);
+    }
+  });
+
+  return sortedProjects.map((project) => ({
     name: project.name,
     description: project.description,
     url: project.url,
