@@ -29,6 +29,23 @@
   },
   "work": [
     {
+      "name": "League1 Ontario",
+      "position": "Full-Stack Developer (freelance)",
+      "url": "",
+      "startDate": "2023-08-02",
+      "endDate": "",
+      "summary": "Build a web scraper and web application uncover trends in League1 Ontario using player age and minutes played.",
+      "highlights": [],
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "PostgreSQL",
+        "Express",
+        "TailwindCSS"
+      ]
+    },
+    {
       "name": "Quran Khane Org",
       "position": "Full-Stack Developer (freelance)",
       "url": "",
@@ -53,16 +70,9 @@
       "startDate": "2018-04-02",
       "endDate": "",
       "summary": "Coordinate operations at soccer matches with teams and officials to facilitate a smooth match-day experience.",
-      "highlights": ["Directed communications team in major events"]
-    },
-    {
-      "name": "Independent Freelancer",
-      "position": "Writer & Photographer",
-      "url": "",
-      "startDate": "2017-09-02",
-      "endDate": "2022-01-02",
-      "summary": "Captured compelling storylines into print and digital while managing multiple projects to meet deadlines in high-pressure environments.",
-      "highlights": ["Centennial's 2017 CLIX photo competition winner"]
+      "highlights": [
+        "Directed communications team in multiple championship finals and major events"
+      ]
     }
   ],
   "education": [
@@ -162,20 +172,20 @@
         "Prisma"
       ],
       "startDate": "2023-04-02",
-      "endDate": "",
+      "endDate": "2023-08-02",
       "url": "https://github.com/jjjjjjonathan/mdoc-assistant",
       "roles": [],
       "entity": "Entity",
       "type": "application"
     },
     {
-      "name": "Django League1 Ontario",
-      "description": "Predictor of promoted/relegated teams for League1 Ontario while learning the Django framework.",
+      "name": "Road to 2024",
+      "description": "Predictor of promoted and relegated teams for League1 Ontario for the upcoming 2024 season.",
       "highlights": [],
       "keywords": ["Python", "Django", "PostgreSQL", "TailwindCSS"],
       "startDate": "2023-05-02",
-      "endDate": "",
-      "url": "https://github.com/jjjjjjonathan/django-l1o",
+      "endDate": "2023-07-27",
+      "url": "https://github.com/jjjjjjonathan/road-to-2024",
       "roles": [],
       "entity": "Entity",
       "type": "application"
