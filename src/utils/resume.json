@@ -34,7 +34,7 @@
       "url": "",
       "startDate": "2023-08-02",
       "endDate": "",
-      "summary": "Build a web scraper and web application uncover trends in League1 Ontario using player age and minutes played.",
+      "summary": "Build a web scraper and web application to uncover trends in League1 Ontario using player age and minutes played.",
       "highlights": [],
       "keywords": [
         "TypeScript",
