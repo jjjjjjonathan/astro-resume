@@ -6,7 +6,7 @@
     "email": "jonathanmcheng@gmail.com",
     "phone": "",
     "url": "https://jcheng.ca",
-    "summary": "Dynamic developer with a keen eye for details and a background in social media and journalism. I build to solve problems and deliver thoughtful user experiences with diverse groups of people in mind using robust technology.",
+    "summary": "Dynamic developer with a keen eye for details and a background in sports and journalism. I build to solve problems and deliver thoughtful user experiences with diverse groups of people in mind using robust technology.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,7 +34,7 @@
       "url": "",
       "startDate": "2023-08-02",
       "endDate": "",
-      "summary": "Build a web scraper and web application to uncover trends in League1 Ontario using player age and minutes played.",
+      "summary": "Build web scrapers, servers, and dashboards for the province's semi-pro soccer league sanctioned by Ontario Soccer.",
       "highlights": [],
       "keywords": [
         "TypeScript",
@@ -117,7 +117,15 @@
     {
       "name": "Programming Languages",
       "level": "",
-      "keywords": ["TypeScript", "JavaScript", "Python", "SQL", "Ruby"]
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "Ruby",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "name": "Frameworks/Libraries",
