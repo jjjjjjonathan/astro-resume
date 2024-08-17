@@ -10,33 +10,33 @@ import EducationList from "../components/Education/EducationList.astro";
 
 <Layout title="Resume | Jonathan Cheng">
   <div
-    class="mb-5 grid h-full w-full grid-cols-11 items-center justify-center letter:mb-0"
+    class="mb h-full w-full items-center justify-center letter:mb-0"
   >
-    <div class="order-0 col-span-11">
+    <div class="">
       <Section title="Summary">
         <Summary />
       </Section>
     </div>
     <div
-      class="order-2 col-span-11 h-full print:order-1 print:col-span-6 medium:order-1 medium:col-span-6"
+      class="h-full"
     >
       <Section title="Experience">
         <WorkList />
       </Section>
     </div>
     <div
-      class="order-1 col-span-11 h-full print:order-2 print:col-span-5 medium:order-2 medium:col-span-5"
+      class="h-full"
     >
       <Section title="Skills">
         <SkillList />
       </Section>
     </div>
-    <div class="order-3 col-span-11 h-full print:col-span-6 medium:col-span-6">
+    <div class="h-full">
       <Section title="Projects">
         <ProjectList />
       </Section>
     </div>
-    <div class="order-4 col-span-11 h-full print:col-span-5 medium:col-span-5">
+    <div class="h-full">
       <Section title="Education">
         <EducationList />
       </Section>

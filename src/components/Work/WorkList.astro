@@ -10,9 +10,12 @@ const jobs = getWork();
     <div class="px-2 py-1">
       <div class="flex flex-row items-center justify-between">
         <h4 class="text-md text-left font-semibold">{job.position}</h4>
-        <span class="text-right text-sm font-medium">{job.date}</span>
       </div>
+      <div class="flex flex-row items-center justify-between">
       <p class="text-sm italic">{job.name}</p>
+        <span class="text-right text-sm font-medium">{job.date}</span>
+
+      </div>
       <p class="px-1 py-1 text-sm">{job.summary}</p>
       <ul>
         {job.highlights.map((highlight) => (

@@ -29,13 +29,16 @@
   },
   "work": [
     {
-      "name": "League1 Ontario",
-      "position": "Full-Stack Developer (freelance)",
+      "name": "League1 Canada",
+      "position": "Application Developer & COMET Coordinator",
       "url": "",
-      "startDate": "2023-08-02",
+      "startDate": "2024-01-02",
       "endDate": "",
-      "summary": "Build web scrapers, servers, and dashboards for the province's semi-pro soccer league sanctioned by Ontario Soccer.",
-      "highlights": [],
+      "summary": "Support League1 CanadaClearly explain technical concepts to non-technical people through detailed but digestable training.",
+      "highlights": [
+        "Led the build and launch of the League1 Canada mobile app for over 8,000 downloads",
+        "Migrated over 50 clubs across three provinces to a new competition system for the 2024 season"
+      ],
       "keywords": [
         "TypeScript",
         "React",
@@ -46,26 +49,8 @@
       ]
     },
     {
-      "name": "Quran Khane Org",
-      "position": "Full-Stack Developer (freelance)",
-      "url": "",
-      "startDate": "2023-02-02",
-      "endDate": "",
-      "summary": "Build a Rails application to organize Quran reading groups while working with team members using agile methodology.",
-      "highlights": ["Lead migration from Bootstrap to TailwindCSS"],
-      "keywords": [
-        "Ruby",
-        "Rails",
-        "Node.js",
-        "PostgreSQL",
-        "Bootstrap",
-        "Webpack",
-        "Figma"
-      ]
-    },
-    {
       "name": "League1 Ontario",
-      "position": "Match-Day Coordinator",
+      "position": "Match-Day Operations Coordinator",
       "url": "",
       "startDate": "2018-04-02",
       "endDate": "",
