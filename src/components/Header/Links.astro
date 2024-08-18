@@ -14,8 +14,11 @@ const profiles = getProfiles();
 const { urlDisplay, urlUrl, urlIcon } = getUrl();
 ---
 
-<div
+<!-- <div
   class="flex flex-row flex-wrap items-end justify-center gap-x-4 px-2 text-sm print:items-center print:justify-between small:flex-col small:justify-between small:gap-0 print:small:flex-row medium:flex-row medium:items-center medium:justify-around"
+> -->
+<div
+  class="grid w-full grid-cols-2 items-center justify-around gap-x-4 px-2 text-sm"
 >
   <Link display={emailDisplay} url={emailUrl} icon={emailIcon} />
   {phoneDisplay ? <Link display={phoneDisplay} icon={phoneIcon} /> : null}

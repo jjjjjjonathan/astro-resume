@@ -1,4 +1,4 @@
-import { basics } from "./resume.json";
+import { basics } from "./resume.private.json";
 
 export const getName = () => {
   return basics.name;
